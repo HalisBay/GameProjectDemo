@@ -27,7 +27,7 @@ public class Main {
 			playerCheck2.getDateOfBirth() == gamePlayer.getDateOfBirth())
 			{
 			baseGamePlayerManager.addNewAccount(gamePlayer);
-			gameManager.deleteGame(game);
+			gameManager.addNewGame(game);
 			campaignManager.addCampaign(campaign);
 			gameSellerManager.sellGames(gamePlayer, game, campaign);
 			}
